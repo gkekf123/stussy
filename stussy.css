@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+	position: fixed;
+	background-color: black;
+}
+li{
+	list-style-type: none;
+}
+.pics{
+	text-align: center;
+	padding-top: 100px;
+}
+.right{
+	float:left;
+}
+.top_left{
+    display: flex;
+	margin-top: 10px;
+    margin-right: 1610px;
+    padding:10px 10px;
+    font-size: small;
+    color: whitesmoke;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size: 11px;
+}
+.top_right{
+	display: flex;
+	margin-top: 10px;
+    font-size: small;
+    color: whitesmoke;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-size: 11px;
+}
+.shop{
+    padding-right: 20px;
+}
+.login{
+	text-decoration: none;
+}
+.bag{
+	text-decoration: none;
+	
+}
+@media screen and (max-width: 1200px) {
+	header {
+		flex-direction: column;
+	}
+	section {
+		flex-direction: column;
+	}
+
+}
